@@ -1,3 +1,15 @@
+/* ! debug, to be removed */
+
+body .debug{
+    border: 1px solid blue;
+}
+
+.debug.col{
+    border-color: red;
+}
+
+/* Generics */
+
 /* Utils */
 
 /* * Color Palette * */
@@ -8,6 +20,9 @@
     --blue: (#2D64E6);
     --footer-blue: (#00439C);
     --night-blue: (#161C3B);
+    --white: (#fff);
     --light-gray: (#BEBCBB);
     --dark-gray: (#363636);
+    --black: (#000);
 }
+
