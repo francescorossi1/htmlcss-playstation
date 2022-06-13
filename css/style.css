@@ -1,0 +1,13 @@
+/* Utils */
+
+/* * Color Palette * */
+
+:root{
+    --orange: (#CD3D0F);
+    --light-blue: (#0072CE);
+    --blue: (#2D64E6);
+    --footer-blue: (#00439C);
+    --night-blue: (#161C3B);
+    --light-gray: (#BEBCBB);
+    --dark-gray: (#363636);
+}
