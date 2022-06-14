@@ -27,6 +27,10 @@ body .debug{
     --black: #000;
 }
 
+.bgc-night-blue{
+    background-color: var(--night-blue);
+}
+
 .bgc-light-gray{
     background-color: var(--light-gray);
 }
