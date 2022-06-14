@@ -23,6 +23,7 @@ body .debug{
     --white: #fff;
     --light-gray: #BEBCBB;
     --dark-gray: #363636;
+    --darker-gray: #1F1F1F;
     --black: #000;
 }
 
@@ -34,6 +35,9 @@ body .debug{
     background-color: var(--orange);
 }
 
+.bgc-darker-gray{
+    background-color: #1F1F1F;
+}
 .c-light-blue{
     color: var(--light-blue);
 }
@@ -42,12 +46,20 @@ h2{
     margin-bottom: 1.5rem;
 }
 
-#returnal .jumbotron-fluid{
-    background-image: url(../img/jumbo-bg.png);
-    background-position: bottom;
+.jumbotron-fluid{
     background-repeat: no-repeat;
 }
 
+#returnal .jumbotron-fluid{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: bottom;
+}
+
+#it-takes-two .jumbotron-fluid{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
 .jumbotron-fluid .container > .row{
     min-height: 750px;
 }
