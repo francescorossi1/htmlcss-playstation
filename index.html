@@ -14,50 +14,87 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="header-navbar fixed-top">
-        <div class="nav-top bg-black">
-            <div class="container-fluid text-white text-end">
-                <div>sony</div>
-            </div>
+    <nav class="fixed-top bg-black text-end" id="header-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/sony_logo.svg" width="80" height="40" alt="">
+            </a>
         </div>
-        <div class="nav-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col text-start debug">
-                        <div class="wrapper debug d-lg-none">logo</div>
-                        <div class="wrapper debug d-none d-lg-block">logo giochi hardware servizi novità fai acquisti
-                            supporto</div>
-                    </div>
-                    <div class="col text-end debug">
-                        <div class="wrapper debug d-lg-none">burger</div>
-                        <div class="wrapper debug d-none d-lg-block">
-                            myplaystation sign lens
-                        </div>
-                    </div>
+                <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt=""></a>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown ps-2">
+                            <a class="nav-link dropdown-toggle">
+                                Giochi
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown ps-2">
+                            <a class="nav-link dropdown-toggle">
+                                Hardware
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown ps-2">
+                            <a class="nav-link dropdown-toggle">
+                                Servizi
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown ps-2">
+                            <a class="nav-link dropdown-toggle">
+                                Novità
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown ps-2">
+                            <a class="nav-link dropdown-toggle">
+                                Fai acquisti
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown ps-2">
+                            <a class="nav-link dropdown-toggle">
+                                Supporto
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown ps-2">
+                            <a class="nav-link dropdown-toggle">
+                                My PlayStation
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown ps-2">
+                            <a class="btn btn-dark rounded-5">
+                                Accedi
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown ps-2">
+                            <a class="navbar-brand" href="#"><img src="img/lens.svg" width="30" height="30" alt=""></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
     </nav>
     <main>
 
         <!-- Jumbotron -->
         <section id="returnal" class="mb-3">
-            <div class="jumbotron-fluid bg-success">
+            <div class="jumbotron-fluid mb-3">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col debug">
+                        <div class="col align-self-end debug">
                             <div class="wrapper">
                                 <div class="figure debug">
-                                    img
+                                    <img src="img/returnal-hero-banner-logo.png" alt="Returnal logo">
                                 </div>
                                 <div class="debug">
-                                    <div class="wrapper">
-                                        <h2>h2</h2>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nemo. Culpa
-                                            officiis explicabo, temporibus maxime est eaque facere facilis nam mollitia
-                                            similique fugiat expedita consequuntur delectus aperiam. Blanditiis, fuga
-                                            magnam.</p>
-                                        <a href="#">button</a>
+                                    <div class="wrapper text-white">
+                                        <h2>Rompi il cerchio</h2>
+                                        <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita
+                                            in questo esplosivo thriller fantascientifico, disponibile in esclusiva su
+                                            ps5.
+                                        </p>
+                                        <a href="#">Acquista ora</a>
                                     </div>
                                 </div>
                             </div>
@@ -71,22 +108,28 @@
                 <div class="container-fluid">
                     <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6">
                         <div class="col debug">
-                            game1
+                            <figure class="figure"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal"
+                                    class="figure-img img-fluid rounded-4"></figure>
                         </div>
                         <div class="col debug">
-                            game2
+                            <figure class="figure"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg"
+                                    alt="Ratchet and Clank" class="figure-img img-fluid rounded-4"></figure>
                         </div>
                         <div class="col debug">
-                            game1
+                            <figure class="figure"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal"
+                                    class="figure-img img-fluid rounded-4"></figure>
                         </div>
                         <div class="col debug">
-                            game2
+                            <figure class="figure"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg"
+                                    alt="Ratchet and Clank" class="figure-img img-fluid rounded-4"></figure>
                         </div>
                         <div class="col debug">
-                            game1
+                            <figure class="figure"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal"
+                                    class="figure-img img-fluid rounded-4"></figure>
                         </div>
                         <div class="col debug">
-                            game2
+                            <figure class="figure"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg"
+                                    alt="Ratchet and Clank" class="figure-img img-fluid rounded-4"></figure>
                         </div>
                     </div>
                 </div>
@@ -332,7 +375,7 @@
                 </div>
             </div>
         </div>
-    </section>
+        </section>
     </main>
 
     <!-- Footer -->

@@ -26,3 +26,16 @@ body .debug{
     --black: (#000);
 }
 
+h2{
+    margin-bottom: 1.5rem;
+}
+
+#returnal .jumbotron-fluid{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-fluid .row{
+    min-height: 750px;
+}
