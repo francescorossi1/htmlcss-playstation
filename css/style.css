@@ -15,15 +15,19 @@ body .debug{
 /* * Color Palette * */
 
 :root{
-    --orange: (#CD3D0F);
-    --light-blue: (#0072CE);
-    --blue: (#2D64E6);
-    --footer-blue: (#00439C);
-    --night-blue: (#161C3B);
-    --white: (#fff);
-    --light-gray: (#BEBCBB);
-    --dark-gray: (#363636);
-    --black: (#000);
+    --orange: #CD3D0F;
+    --light-blue: #0072CE;
+    --blue: #2D64E6;
+    --footer-blue: #00439C;
+    --night-blue: #161C3B;
+    --white: #fff;
+    --light-gray: #BEBCBB;
+    --dark-gray: #363636;
+    --black: #000;
+}
+
+.bgc-orange{
+    background-color: var(--orange);
 }
 
 h2{
@@ -36,6 +40,6 @@ h2{
     background-repeat: no-repeat;
 }
 
-.jumbotron-fluid .row{
+.jumbotron-fluid .container > .row{
     min-height: 750px;
 }
