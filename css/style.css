@@ -27,6 +27,10 @@ body .debug{
     --black: #000;
 }
 
+.bgc-light-gray{
+    background-color: var(--light-gray);
+}
+
 .bgc-blue{
     background-color: var(--blue);
 }
@@ -38,8 +42,13 @@ body .debug{
 .bgc-darker-gray{
     background-color: #1F1F1F;
 }
+
 .c-light-blue{
     color: var(--light-blue);
+}
+
+.c-blue{
+    color: var(--blue)
 }
 
 h2{
