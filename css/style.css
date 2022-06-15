@@ -8,6 +8,7 @@
     --night-blue: #161C3B;
     --white: #fff;
     --light-gray: #BEBCBB;
+    --ps-plus-btn-gray: #D9DADC;
     --dark-gray: #363636;
     --darker-gray: #1F1F1F;
     --black: #000;
@@ -27,6 +28,14 @@
     background-color: var(--light-gray);
 }
 
+.bgc-ps-plus-btn{
+    background-color: var(--ps-plus-btn-gray);
+}
+
+.bgc-white{
+    background-color: var(--white);
+}
+
 .bgc-blue{
     background-color: var(--blue);
 }
@@ -35,8 +44,16 @@
     background-color: var(--orange);
 }
 
+.bgc-dark-gray{
+    background-color: #363636;
+}
+
 .bgc-darker-gray{
     background-color: #1F1F1F;
+}
+
+.c-white{
+    color: var(--white);
 }
 
 .c-light-blue{
@@ -44,7 +61,11 @@
 }
 
 .c-blue{
-    color: var(--blue)
+    color: var(--blue);
+}
+
+.c-black{
+    color: var(--black);
 }
 
 h2{
@@ -61,6 +82,7 @@ h2{
 #returnal .jumbotron-fluid{
     background-image: url(../img/jumbo-bg.png);
     background-position: bottom;
+    padding-top: 450px;
 }
 
 #it-takes-two .jumbotron-fluid{
@@ -68,15 +90,75 @@ h2{
     background-position: center;
     background-size: cover;
 }
-.jumbotron-fluid .container > .row{
-    min-height: 750px;
-}
 
 footer a{
     text-decoration: none;
-    color: var(--white)
+    color: var(--white);
 }
 
-#sony-logo{
-    font-size: 48px;
+/* Custom Buttons */
+
+.custom-btn{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0.375rem 0.75rem;
+    color: var(--white);
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: border-color 0.5s linear;
 }
+
+.custom-btn:hover{
+    color: var(--white);
+}
+
+.btn-dark-gray{
+    background-color: var(--dark-gray);
+    box-shadow: 0px 0px 0px 2px var(--dark-gray);
+}
+
+.btn-dark-gray:hover{
+    border-color: var(--black);
+}
+
+.btn-orange{
+    background-color: var(--orange);
+    box-shadow: 0px 0px 0px 2px var(--orange);
+}
+
+.btn-orange:hover{
+    border-color: var(--black);
+}
+
+.btn-blue{
+    background-color: var(--blue);
+    box-shadow: 0px 0px 0px 2px var(--blue);
+}
+
+.btn-blue:hover{
+    border-color: var(--white);
+}
+
+.btn-plus{
+    background-color: var(--ps-plus-btn-gray);
+    box-shadow: 0px 0px 0px 2px var(--ps-plus-btn-gray);
+    color: var(--blue);
+}
+
+.btn-plus:hover{
+    border-color: var(--light-gray);
+    color: var(--blue);
+}
+
+.btn-now{
+    background-color: var(--white);
+    box-shadow: 0px 0px 0px 2px var(--white);
+    color: var(--black);
+}
+
+.btn-now:hover{
+    border-color: var(--night-blue);
+    color: var(--black);
+}
+
