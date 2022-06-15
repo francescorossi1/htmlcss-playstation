@@ -96,6 +96,13 @@ footer a{
     color: var(--white);
 }
 
+footer a:hover{
+    color: var(--white);
+}
+
+.figure{
+    cursor: pointer;
+}
 /* Custom Buttons */
 
 .custom-btn{
@@ -170,4 +177,17 @@ footer a{
 
 .jumbotron-games .figure-img:hover{
     transform: translateY(-10%);
+}
+
+#it-takes-two .jumbotron-games .figure:hover .figure-img{
+    transform: translateY(-10%);
+}
+
+#playstation-5 .custom-opacity{
+    opacity: 0.75;
+    transition: opacity 0.5s linear;
+}
+
+#playstation-5 .custom-opacity:hover{
+    opacity: 1;
 }
