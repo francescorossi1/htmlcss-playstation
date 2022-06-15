@@ -183,20 +183,21 @@ footer a:hover{
     transform: translateY(-10%);
 }
 
-#playstation-5 .custom-opacity{
+#playstation-5 .custom-properties{
     opacity: 0.75;
     transition: opacity 0.5s linear;
 }
 
-#playstation-5 .custom-opacity:hover{
+#playstation-5 .custom-properties:hover{
     opacity: 1;
+    border-bottom: 2px solid var(--light-blue);
 }
 
 /* Active Effects */
 
 .custom-active{
     padding: 2px;
-    border: 2px solid #0072CE;
+    border: 2px solid var(--light-blue);
 }
 
 #playstation-5 .custom-active{
@@ -204,3 +205,4 @@ footer a:hover{
     border-left: 0;
     border-right: 0;
 }
+
