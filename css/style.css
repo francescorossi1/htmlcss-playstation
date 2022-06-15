@@ -199,10 +199,3 @@ footer a:hover{
     padding: 2px;
     border: 2px solid var(--light-blue);
 }
-
-#playstation-5 .custom-active{
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-}
-
